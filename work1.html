@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio_kato</title>
+  <!-- css -->
+  <link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/work1.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Castoro+Titling&family=Pacifico&family=Shippori+Mincho&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Castoro+Titling&family=Lora&family=Oswald&family=Pacifico&family=Shippori+Mincho&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+  <header>
+    <div class="wrapper">
+      <h1><a href="index.html">kato・D・aiki</a></h1>
+
+      <div id="drawer_toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <nav id="drawer_nav">
+        <ul>
+          <li class="drawer_nav_list"><a href="index.html">TOP</a></li>
+          <li class="drawer_nav_list"><a href="work1.html">WORK1</a></li>
+          <li class="drawer_nav_list"><a href="work2.html">WORK2</a></li>
+          <li class="drawer_nav_list"><a href="work3.html">WORK3</a></li>
+        </ul>
+      </nav>
+
+      <nav id="sp_nav">
+        <ul>
+          <li><a href="index.html">TOP</a></li>
+          <li><a href="work1.html">WORK1</a></li>
+          <li><a href="work2.html">WORK2</a></li>
+          <li><a href="work3.html">WORK3</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="mainvisual">
+      <div class="wrapper">
+        <h2>Works</h2>
+        <div class="main_pic_area">
+          <div class="main_pc_area">
+            <img class="pc_pic" src="img/fashion_pc.png" alt="PCサイト">
+          </div>
+          <div class="main_sp_area">
+            <img class="sp_pic" src="img/fashion_sp.png" alt="SPサイト">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="detail">
+      <div class="wrapper">
+        <div class="detail_top">
+          <dl>
+            <dt>WebサイトURL</dt>
+            <dd><a class="detail_link" href="https://kato-dai26.github.io/kato-portfolio-1/">https://kato-dai26.github.io/kato-portfolio-1/</a></dd>
+          </dl>
+        </div>
+        <div class="detail_middle">
+          <dl>
+            <dt>クライアント企業名</dt>
+            <dd>KATO-FASHION</dd>
+            <dt>媒体</dt>
+            <dd>会社説明、Webサイト</dd>
+            <dt>仕様ソフト</dt>
+            <dd>Visual Studio Code</dd>
+            <dt>対応範囲</dt>
+            <dd>企画立案、デザイン、カンプ制作、コーディング</dd>
+            <dt>制作期間</dt>
+            <dd>3週間(2023年3月1日〜3月24日)</dd>
+          </dl>
+        </div>
+        <div class="detail_bottom">
+          <p>セレクトショップのWEBサイト制作を担当。お客様のご要望や、希望を一つ一つヒアリングし、一緒にコンセプトを決めるとこからスタートしました。オンライン利用者を増やすために、オンラインページには特に力を入れて作成しました。</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer class="footer">
+    <div class="footer_flex">
+      <h2>
+        <a href="index.html">kato・D・aiki</a>
+      </h2>
+      <nav>
+        <ul>
+          <li class="footer_flex_li"><a href="index.html">TOP</a></li>
+          <li class="footer_flex_li"><a href="work1.html">WORK1</a></li>
+          <li class="footer_flex_li"><a href="work2.html">WORK2</a></li>
+          <li class="footer_flex_li"><a href="work3.html">WORK3</a></li>
+        </ul>
+      </nav>
+    </div>
+    <small>&copy; 2023 01 23 My Portfolio_kato</small>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+  <script>
+    $(function(){
+       $('#drawer_toggle').click(function(){
+          $(this).toggleClass('open');
+          $('#drawer_nav').slideToggle();
+       });
+
+       $('.drawer_nav_list').click(function(){
+          $('#drawer_nav').slideUp();
+       });
+    });
+  </script>
+</body>
+</html>
