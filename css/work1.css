@@ -13,31 +13,35 @@
   padding: 10px 0;
   background-color: rgb(147, 221, 181);
   width: 100%;
-  height: 110vh;
+  height: 1740px;
   display: flex;
   justify-content: space-around;
 }
 
+.work3_only{
+  height: 1000px;
+}
+
 .main_pc_area{
-  width: 400px;
+  width: 600px;
   height: 100%;
 }
 
 .main_sp_area{
-  width: 130px;
+  width: 190px;
   height: 100%;
 }
 
 .pc_pic{
   width: 100%;
   height: 100%;
-  object-fit: fill;
+  object-fit: contain;
 }
 
 .sp_pic{
   width: 100%;
   height: 100%;
-  object-fit: fill;
+  object-fit: contain;
 }
 
 .detail{
@@ -89,15 +93,20 @@
 }
 
 .main_pic_area{
-  height: 70vh;
+  height: 850px;
 }
 
+.work3_only{
+  height: 500px;
+}
+
+
 .main_pc_area{
-  width: 50%;
+  width:70%;
 }
 
 .main_sp_area{
-  width: 20%;
+  width: 25%;
 }
 
 .detail{
