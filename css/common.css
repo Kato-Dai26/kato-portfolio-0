@@ -2,7 +2,7 @@
 
 .wrapper{
   width: 100%;
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -30,7 +30,7 @@ header .wrapper{
 }
 
 header h1{
-  padding: 17px 0 0 10px;
+  padding: 17px 0 0 20px;
   font-family: 'Lora', serif;
   font-size: 1.8rem;
   font-weight: bold;
@@ -86,20 +86,20 @@ header ul{
 }
 
 #sp_nav li{
-  padding: 17px 10px 0 0;
+  padding: 17px 20px 0 0;
   margin-left: 20px;
+  font-size: 0.9rem;
 }
 
 .footer{
-  padding: 20px 30px;
+  padding: 20px 20px;
   background-color: rgb(211, 205, 205);
   color: #000;
   text-align: center;
 }
 
 .footer_flex{
-  margin: 0 auto 80px;
-  max-width: 1000px;
+  margin: 0 auto 40px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -127,7 +127,7 @@ header ul{
   display: none;
 }
 
-@media(max-width:600px){
+@media(max-width:850px){
 
   .pc{
     display: none;

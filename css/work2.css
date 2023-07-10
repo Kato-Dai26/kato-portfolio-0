@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+#drawer_nav ul{
+  padding-top: 33%;
+}
+
+.mainvisual h2{
+  font-family: 'Oswald', sans-serif;
+  margin: 50px 0;
+  font-size: 2.8rem;
+  letter-spacing: 0.2rem;
+  color: #333;
+}
+
+.mainvisual .wrapper,
+.detail .wrapper{
+  padding: 0 20px;
+}
+
+.main_pic_area{
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.main_pic_area_sp_only{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_pc_area{
+  width: 55%;
+  height: 330px;
+  margin: 0 auto;
+}
+
+.main_tab_area{
+  width: 50%;
+  height: 300px;
+}
+
+.main_sp_area{
+  width: 50%;
+  height: 270px;
+}
+
+.pc_pic{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.tab_pic{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sp_pic{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.detail{
+  padding-top: 60px;
+}
+
+.detail_top,.detail_middle{
+  margin-bottom: 25px;
+}
+
+.detail dl{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.detail dt{
+  margin-bottom: 15px;
+  width: 20%;
+  font-size: 1.2rem;
+}
+
+.detail dd{
+  margin-bottom: 15px;
+  width: 80%;
+}
+
+.detail dd::before{
+  padding-right: 20px;
+  content: ":";
+}
+
+.detail_link{
+  color: rgb(62, 103, 228);
+}
+
+.detail_bottom{
+  margin-bottom: 25px;
+}
+
+.detail_bottom p{
+  font-size: 1.1rem;
+}
+
+@media(max-width:640px){
+
+.mainvisual h2{
+  text-align: center;
+}
+
+.main_pic_area{
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.main_pic_area_sp_only{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_pc_area{
+  width: 90%;
+  height: 300px;
+}
+
+.main_tab_area{
+  width: 50%;
+  height: 200px;
+}
+
+.main_sp_area{
+  width: 50%;
+  height: 150px;
+}
+
+.pc_pic{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.tab_pic{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sp_pic{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.detail{
+  padding: 20px 15px 0 15px;
+}
+
+.detail_top,.detail_middle{
+  margin-bottom: 25px;
+}
+
+.detail dt{
+  margin-bottom: 25px;
+  width: 42%;
+  font-size: 0.9rem;
+}
+
+.detail dd{
+  margin-bottom: 25px;
+  width: 58%;
+  font-size: 0.9rem;
+}
+
+.detail dd::before{
+  padding-right: 10px;
+  content: ":";
+}
+
+.detail_bottom p{
+  font-size: 1rem;
+}
+
+}
