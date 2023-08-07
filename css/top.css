@@ -263,8 +263,13 @@
   }
   
   .about_pic{
-    width: 80%;
+    width: 50%;
     margin-bottom: 20px;
+  }
+
+  .about_pic img{
+    width: 100%;
+    height: 190px;
   }
   
   .about_txt{
