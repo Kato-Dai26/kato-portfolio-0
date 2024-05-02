@@ -2,15 +2,10 @@
 
 .mainvisual h2{
   font-family: 'Oswald', sans-serif;
-  margin: 50px 0;
+  margin-top: 50px;
   font-size: 2.8rem;
   letter-spacing: 0.2rem;
   color: #333;
-}
-
-.mainvisual .wrapper,
-.detail .wrapper{
-  padding: 0 20px;
 }
 
 .main_pic_area{
@@ -18,45 +13,8 @@
   width: 100%;
 }
 
-.main_pic_area_sp_only{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.main_pc_area{
-  width: 55%;
-  height: 330px;
-  margin: 0 auto;
-}
-
-.main_tab_area{
-  width: 50%;
-  height: 300px;
-}
-
-.main_sp_area{
-  width: 50%;
-  height: 270px;
-}
-
-.pc_pic{
+.main_pic_area img{
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-}
-
-.tab_pic{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.sp_pic{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 .detail{
@@ -150,10 +108,6 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-.detail{
-  padding: 20px 15px 0 15px;
 }
 
 .detail_top,.detail_middle{
