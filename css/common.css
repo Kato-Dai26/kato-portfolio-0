@@ -86,12 +86,12 @@ header ul{
   display: flex;
 }
 
-#sp_nav li{
+/* #sp_nav li{
   padding: 17px 0 0 15px;
   margin-left: 5px;
-  font-size: 0.9rem;
+  font-size: .9rem;
   font-weight: bold;
-}
+} */
 
 .footer{
   padding: 20px 0;
@@ -110,7 +110,7 @@ header ul{
 
 .footer_flex h2 a{
   font-family: "Playball", cursive;
-  font-size: 18px;
+  font-size: 25px;
 }
 
 .footer_flex_li + .footer_flex_li{
@@ -192,10 +192,10 @@ header ul{
     text-align: center;
   }
 
-  #drawer_nav li a{
+  /* #drawer_nav li a{
     font-size: 25px;
     font-weight: bold;
-  }
+  } */
 
   #sp_nav{
     display: none;

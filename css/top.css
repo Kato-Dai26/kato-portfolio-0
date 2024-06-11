@@ -1,4 +1,15 @@
 @charset "UTF-8";
+#sp_nav li{
+  padding: 17px 0 0 15px;
+  margin-left: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#drawer_nav li a{
+  font-size: 25px;
+  font-weight: bold;
+}
 
 .mainvisual{
   position: relative;

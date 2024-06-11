@@ -1,4 +1,15 @@
 @charset "UTF-8";
+#sp_nav li{
+  padding: 17px 0 0 15px;
+  margin-left: 5px;
+  font-size: .65rem;
+  font-weight: bold;
+}
+
+#drawer_nav li a{
+  font-size: 20px;
+  font-weight: bold;
+}
 
 .mainvisual h2{
   font-family: 'Oswald', sans-serif;
